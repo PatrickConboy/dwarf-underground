@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 
 import './App.css';
 import Header from './Header';
-import ArticleBody from './ArticleBody';
-import Avatar from './Avatar';
-import ArticleLinks from './ArticleLinks';
-import ArticleTitle from './ArticleTitle';
+import MainBody from './MainBody';
 import Advert from './Advert';
 
 class App extends Component {
@@ -15,12 +12,7 @@ class App extends Component {
         <Header />
 
         <main className="expanded row">
-          <div className="large-8 medium-12 columns article">
-            <ArticleTitle />
-            <Avatar />
-            <ArticleBody />
-            <ArticleLinks />
-          </div>
+          <MainBody />
           <aside className="large-4 medium-12 columns">
             <Advert />
           </aside>
